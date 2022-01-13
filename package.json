@@ -21,6 +21,21 @@
 				"command": "bugu-lang.helloWorld",
 				"title": "Hello World"
 			}
+		],
+		"languages": [
+			{
+				"id": "bugu",
+				"extensions": [
+					".bugu"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "bugu",
+				"scopeName": "source.bugu",
+				"path": "./syntaxes/bugu.tmGrammar.json"
+			}
 		]
 	},
 	"scripts": {
