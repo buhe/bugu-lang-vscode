@@ -1,7 +1,9 @@
 {
   "name": "bugu-lang",
-	"displayName": "bugu-lang",
-	"description": "",
+	"displayName": "Bugu Lang",
+	"description": "Bugu Programming Language Support",
+	"repository": "https://github.com/buhe/bugu-lang-vscode",
+	"license": "GPL-3.0",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.63.0"
