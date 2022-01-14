@@ -20,6 +20,15 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	context.subscriptions.push(vscode.languages.registerHoverProvider('bugu', {
+			provideHover(document, position, token) {
+				return {
+					contents: ['Welcome Bugu!']
+				};
+			}
+		})
+	);
 }
 
 // this method is called when your extension is deactivated

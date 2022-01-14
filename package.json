@@ -12,7 +12,8 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:bugu-lang.helloWorld"
+        "onCommand:bugu-lang.helloWorld",
+		"onLanguage:bugu"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
