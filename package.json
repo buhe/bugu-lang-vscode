@@ -27,7 +27,8 @@
 				"id": "bugu",
 				"extensions": [
 					".bugu"
-				]
+				],
+				"configuration": "./language-configuration.json"
 			}
 		],
 		"grammars": [
